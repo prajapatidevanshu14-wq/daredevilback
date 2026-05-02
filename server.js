@@ -1195,7 +1195,7 @@ app.get('/api/health', (req, res) => {
 ========================= */
 setInterval(async () => {
   try {
-    await axios.get("https://batman-hush-backend.onrender.com/api/health");
+    await axios.get("https://daredevilback.onrender.com/api/health");
     console.log("[PING] Keeping server alive");
   } catch (e) {}
 }, 5 * 60 * 1000);
